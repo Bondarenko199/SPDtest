@@ -1,0 +1,8 @@
+.IconsList {
+  display: flex;
+}
+
+.IconsList.-footer {
+  margin-bottom: 12px;
+  justify-content: center;
+}
