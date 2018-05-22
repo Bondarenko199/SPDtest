@@ -5,6 +5,7 @@ import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 
 import './index.css';
+import 'font-awesome/css/font-awesome.min.css'
 
 const rootNode = document.getElementById('root')
 
