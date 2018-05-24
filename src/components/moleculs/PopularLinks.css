@@ -1,0 +1,10 @@
+.PopularLinks {
+  padding: 26px 0 50px;
+  margin: 0 -16px;
+  display: flex;
+}
+
+.PopularLinks-list-item {
+  width: 25%;
+  margin: 0 16px;
+}

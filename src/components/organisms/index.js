@@ -1,7 +1,9 @@
-import Container from './Container'
+import Wrapper from './Wrapper'
+import Header from './Header'
 import Footer from './Footer'
 
 export {
-  Container,
+  Wrapper,
+  Header,
   Footer
 }

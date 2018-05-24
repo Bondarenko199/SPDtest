@@ -8,5 +8,5 @@
 }
 
 .Icon.-footer:hover {
-  transform: scale(1.5);
+  transform: scale(1.5) translateY(-3px);
 }

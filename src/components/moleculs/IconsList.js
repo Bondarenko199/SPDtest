@@ -1,18 +1,18 @@
 import React from 'react'
 
-import { Icon } from './../atoms'
+import { Icon } from '../atoms'
 
 import './IconsList.css'
 
-const IconsList = props => (
+const IconsList = ({className, icons}) => (
   <ul
-    className={props.className ? `IconsList -${props.className}` : 'IconsList'}>
+    className={className ? `IconsList -${className}` : 'IconsList'}>
     {
-      props.icons.map(el => (
+      icons.map(el => (
         <li key={el.key}>
           <Icon href={el.href}
-                    className={props.className}
-                    iconName={el.iconName}
+                className={className}
+                iconName={el.iconName}
           />
         </li>
       ))

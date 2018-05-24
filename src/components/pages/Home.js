@@ -1,10 +1,13 @@
 import React from 'react'
 
-import { Footer } from '../organisms'
+import { Header, Footer } from '../organisms'
 
 const Home = () => (
   <React.Fragment>
-    <p>Hello World Home</p>
+    <Header/>
+    <main className="content">
+      <p>Hello World Home</p>
+    </main>
     <Footer/>
   </React.Fragment>
 )

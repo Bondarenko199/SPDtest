@@ -1,10 +1,13 @@
 import React from 'react'
 
-import { Footer } from '../organisms'
+import { Header, Footer } from '../organisms'
 
 const Error = () => (
   <React.Fragment>
-    <p>Hello World</p>
+    <Header/>
+    <main className="content">
+      <p>Hello World</p>
+    </main>
     <Footer/>
   </React.Fragment>
 )

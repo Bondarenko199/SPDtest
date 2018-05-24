@@ -1,10 +1,13 @@
 import React from 'react'
 
-import { Footer } from '../organisms'
+import { Header, Footer } from '../organisms'
 
 const Contact = () => (
   <React.Fragment>
-    <p>Hello World Contact</p>
+    <Header/>
+    <main className="content">
+      <p>Hello World Contact</p>
+    </main>
     <Footer/>
   </React.Fragment>
 )

@@ -1,0 +1,17 @@
+.Nav-list-wrapper:hover .SubNav-wrapper {
+  max-height: 600px;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav-relative {
+  position: relative;
+}
+
+.Nav-list {
+  display: flex;
+}
