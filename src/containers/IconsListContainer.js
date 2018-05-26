@@ -8,39 +8,39 @@ class IconsListContainer extends React.Component {
     this.state = {
       icons: [
         {
+          id: '1',
           href: 'https://www.facebook.com',
-          iconName: 'facebook-f',
-          key: '1'
+          iconName: 'facebook-f'
         },
         {
+          id: '2',
           href: 'https://twitter.com',
-          iconName: 'twitter',
-          key: '2'
+          iconName: 'twitter'
         },
         {
+          id: '3',
           href: 'https://plus.google.com',
-          iconName: 'google-plus',
-          key: '3'
+          iconName: 'google-plus'
         },
         {
+          id: '4',
           href: 'https://www.pinterest.com',
-          iconName: 'pinterest',
-          key: '4'
+          iconName: 'pinterest'
         },
         {
+          id: '5',
           href: 'https://www.instagram.com',
-          iconName: 'instagram',
-          key: '5'
+          iconName: 'instagram'
         },
         {
+          id: '6',
           href: 'https://www.stumbleupon.com/',
-          iconName: 'stumbleupon',
-          key: '6'
+          iconName: 'stumbleupon'
         },
         {
+          id: '7',
           href: '#',
-          iconName: 'rss',
-          key: '7'
+          iconName: 'rss'
         }
       ]
     }

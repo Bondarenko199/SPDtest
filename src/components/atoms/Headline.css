@@ -1,0 +1,17 @@
+.Headline {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Headline.-left {
+  text-align: left;
+}
+
+.Headline.-center {
+  text-align: center;
+}
+
+.Headline.-right {
+  text-align: right;
+}

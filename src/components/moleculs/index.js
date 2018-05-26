@@ -3,11 +3,13 @@ import Nav from './Nav'
 import SubNav from './SubNav'
 import PopularLinks from './PopularLinks'
 import SubLinks from './SubLinks'
+import FormWidget from './FormWidget'
 
 export {
   IconsList,
   Nav,
   SubNav,
   PopularLinks,
-  SubLinks
+  SubLinks,
+  FormWidget
 }

@@ -9,7 +9,7 @@ const IconsList = ({className, icons}) => (
     className={className ? `IconsList -${className}` : 'IconsList'}>
     {
       icons.map(el => (
-        <li key={el.key}>
+        <li key={el.id}>
           <Icon href={el.href}
                 className={className}
                 iconName={el.iconName}
