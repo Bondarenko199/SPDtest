@@ -15,3 +15,7 @@
 .Headline.-right {
   text-align: right;
 }
+
+.Headline.-brand {
+  margin-bottom: 12px;
+}

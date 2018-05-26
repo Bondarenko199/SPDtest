@@ -17,7 +17,8 @@ class FormWidget extends React.Component {
   render() {
     return (
       <form className={this.props.className ? `FormWidget -${this.props.className}` : 'FormWidget'}>
-        <h3 className="FormWidget-title">Try your <span className="FormWidget-title-color">free</span> trial today</h3>
+        <h3 className="FormWidget-title">Try your <span
+          className="FormWidget-title-color">free</span> trial today</h3>
         <div className="FormWidget-wrapper">
           {this.props.inputs.map(el => (
             <input key={el.id}
@@ -29,7 +30,7 @@ class FormWidget extends React.Component {
                    onChange={this.handleChange}/>
           ))}
         </div>
-        <input type="submit" name="submit" value="Get Started"/>
+        <button type="submit">Get Started</button>
       </form>
 
     )

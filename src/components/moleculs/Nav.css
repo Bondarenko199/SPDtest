@@ -15,3 +15,14 @@
 .Nav-list {
   display: flex;
 }
+
+.NavItem {
+  padding: 30px 20px;
+  display: block;
+  color: #fff;
+  transition: .2s ease-in-out;
+}
+
+.NavItem:hover {
+  background: #ff9b51;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
-import { Logo, NavItem } from '../atoms'
+import { Logo } from '../atoms'
 import { SubNav } from '../moleculs'
 import { Wrapper } from '../organisms'
 
@@ -15,8 +16,8 @@ const Nav = ({className, links, subLinks, popularLinks}) => (
           <ul className="Nav-list">
             {links.map(el => (
               <li key={el.id}>
-                <NavItem path={el.path}
-                         linkName={el.linkName}/>
+                <NavLink to={el.path}
+                         className="NavItem">{el.linkName}</NavLink>
               </li>
             ))}
           </ul>

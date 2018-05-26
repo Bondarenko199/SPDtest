@@ -1,0 +1,15 @@
+.BrandBarSection {
+  padding: 22px 0;
+}
+
+.BrandBarSection-wrapper {
+  display: flex;
+}
+
+.BrandBarSection-item-l {
+  width: 33.3333%;
+}
+
+.BrandBarSection-item-r {
+  width: 66.6666%;
+}
