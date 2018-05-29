@@ -6,6 +6,7 @@ import BrandBarSection from './BrandBarSection'
 import TabsSection from './TabsSection'
 import SubListSection from './SubListSection'
 import SubList from './SubList'
+import PictureSection from './PictureSection'
 
 export {
   Wrapper,
@@ -15,5 +16,6 @@ export {
   BrandBarSection,
   TabsSection,
   SubListSection,
-  SubList
+  SubList,
+  PictureSection
 }

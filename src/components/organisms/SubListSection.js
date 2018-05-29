@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { Wrapper, SubList } from './'
-import { Headline, Text } from '../atoms'
+import { Headline, Text, Image } from '../atoms'
 
 import './SubListSection.css'
 
@@ -10,10 +10,10 @@ const SubListSection = ({title, text, subList, img}) => (
     <Wrapper>
       <div className="SubListSection-wrapper">
         <div className="SubListSection-img-wrapper">
-          <img src={img} alt={title} className="SubListSection-img"/>
+          <Image src={img} alt={title} className="decorated"/>
         </div>
         <div className="SubListSection-text-wrapper">
-          <Headline className="sublist">{title}</Headline>
+          <Headline className="decorated">{title}</Headline>
           <Text className="sublist">{text}</Text>
           <SubList subList={subList}/>
         </div>

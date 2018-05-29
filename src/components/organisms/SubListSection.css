@@ -4,25 +4,15 @@
 
 .SubListSection-wrapper {
   display: flex;
-  align-items: center;
-}
-
-.SubListSection-img-wrapper,
-.SubListSection-text-wrapper {
-  width: 50%;
+  justify-content: space-between;
 }
 
 .SubListSection-img-wrapper {
-  padding-right: 90px;
-}
-
-.SubListSection-img {
+  max-width: 453px;
   width: 100%;
-  height: auto;
-  display: block;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, .3);
 }
 
 .SubListSection-text-wrapper {
-  padding-left: 90px;
+  max-width: 415px;
+  width: 100%;
 }

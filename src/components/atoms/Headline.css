@@ -21,13 +21,13 @@
   margin-bottom: 12px;
 }
 
-.Headline.-sublist {
+.Headline.-decorated {
   padding-bottom: 30px;
   margin-bottom: 30px;
   position: relative;
 }
 
-.Headline.-sublist:after {
+.Headline.-decorated:after {
   content: '';
   width: 65px;
   height: 2px;

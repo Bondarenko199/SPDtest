@@ -5,7 +5,8 @@ import {
   IntroSectionContainer,
   BrandBarSectionContainer,
   TabsSectionContainer,
-  SubListSectionContainer
+  SubListSectionContainer,
+  PictureSectionContainer
 } from '../../containers'
 
 const Home = () => (
@@ -16,6 +17,7 @@ const Home = () => (
       <BrandBarSectionContainer/>
       <TabsSectionContainer/>
       <SubListSectionContainer/>
+      <PictureSectionContainer/>
     </main>
     <Footer/>
   </React.Fragment>

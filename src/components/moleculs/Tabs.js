@@ -48,8 +48,8 @@ class Tabs extends React.Component {
                   'Tabs-tab'}>
               <div className="Tabs-text">
                 <Headline classame="tab">{el.title}</Headline>
-                <Text className="tab">{el.text}</Text>
-                <Text className="tab">{el.subtext}</Text>
+                <Text className="spaced">{el.text}</Text>
+                <Text className="spaced">{el.subtext}</Text>
                 <Button link={el.link}>Download</Button>
               </div>
               <div className="Tabs-img">
