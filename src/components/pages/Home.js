@@ -4,7 +4,8 @@ import { Header, Footer } from '../organisms'
 import {
   IntroSectionContainer,
   BrandBarSectionContainer,
-  TabsSectionContainer
+  TabsSectionContainer,
+  SubListSectionContainer
 } from '../../containers'
 
 const Home = () => (
@@ -14,6 +15,7 @@ const Home = () => (
       <IntroSectionContainer/>
       <BrandBarSectionContainer/>
       <TabsSectionContainer/>
+      <SubListSectionContainer/>
     </main>
     <Footer/>
   </React.Fragment>

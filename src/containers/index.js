@@ -4,6 +4,7 @@ import IntroSectionContainer from './IntroSectionContainer'
 import FormWidgetContainer from './FormWidgetContainer'
 import BrandBarSectionContainer from './BrandBarSectionContainer'
 import TabsSectionContainer from './TabsSectionContainer'
+import SubListSectionContainer from './SubListSectionContainer'
 
 export {
   IconsListContainer,
@@ -11,5 +12,6 @@ export {
   IntroSectionContainer,
   FormWidgetContainer,
   BrandBarSectionContainer,
-  TabsSectionContainer
+  TabsSectionContainer,
+  SubListSectionContainer
 }

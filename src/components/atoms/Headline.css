@@ -20,3 +20,20 @@
 .Headline.-brand {
   margin-bottom: 12px;
 }
+
+.Headline.-sublist {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.Headline.-sublist:after {
+  content: '';
+  width: 65px;
+  height: 2px;
+  display: block;
+  background-color: #ff9b51;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
