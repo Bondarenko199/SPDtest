@@ -7,6 +7,8 @@ import TabsSection from './TabsSection'
 import SubListSection from './SubListSection'
 import SubList from './SubList'
 import PictureSection from './PictureSection'
+import ProcessSection from './ProcessSection'
+import ProcessList from './ProcessList'
 
 export {
   Wrapper,
@@ -17,5 +19,7 @@ export {
   TabsSection,
   SubListSection,
   SubList,
-  PictureSection
+  PictureSection,
+  ProcessSection,
+  ProcessList
 }

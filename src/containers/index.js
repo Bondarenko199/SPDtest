@@ -6,6 +6,7 @@ import BrandBarSectionContainer from './BrandBarSectionContainer'
 import TabsSectionContainer from './TabsSectionContainer'
 import SubListSectionContainer from './SubListSectionContainer'
 import PictureSectionContainer from './PictureSectionContainer'
+import ProcessSectionContainer from './ProcessSectionContainer'
 
 export {
   IconsListContainer,
@@ -15,5 +16,6 @@ export {
   BrandBarSectionContainer,
   TabsSectionContainer,
   SubListSectionContainer,
-  PictureSectionContainer
+  PictureSectionContainer,
+  ProcessSectionContainer
 }
