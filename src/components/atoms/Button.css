@@ -1,6 +1,6 @@
 .Button {
   padding: 15px 32px;
-  display: block;
+  display: inline-block;
   align-self: flex-start;
   font-size: 15px;
   font-weight: 400;

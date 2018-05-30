@@ -3,11 +3,19 @@ import NavContainer from './NavContainer'
 import IntroSectionContainer from './IntroSectionContainer'
 import FormWidgetContainer from './FormWidgetContainer'
 import BrandBarSectionContainer from './BrandBarSectionContainer'
+import TabsSectionContainer from './TabsSectionContainer'
+import SubListSectionContainer from './SubListSectionContainer'
+import PictureSectionContainer from './PictureSectionContainer'
+import ProcessSectionContainer from './ProcessSectionContainer'
 
 export {
   IconsListContainer,
   NavContainer,
   IntroSectionContainer,
   FormWidgetContainer,
-  BrandBarSectionContainer
+  BrandBarSectionContainer,
+  TabsSectionContainer,
+  SubListSectionContainer,
+  PictureSectionContainer,
+  ProcessSectionContainer
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { node } from 'prop-types'
 
 import './Wrapper.css'
 
@@ -7,5 +8,9 @@ const Wrapper = ({children}) => (
     {children}
   </div>
 )
+
+Wrapper.propTypes = {
+  children: node.isRequired
+}
 
 export default Wrapper

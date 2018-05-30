@@ -10,3 +10,11 @@
   font-weight: 300;
   color: #fff;
 }
+
+.Text.-sublist {
+  margin-bottom: 45px;
+}
+
+.Text.-spaced {
+  margin-bottom: 30px;
+}

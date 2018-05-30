@@ -1,0 +1,38 @@
+.Tabs-buttons-list {
+  min-width: 112px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.Tabs-button {
+  width: 112px;
+  height: 112px;
+  margin-bottom: 1px;
+  background: #37495e;
+  border: none;
+}
+
+.Tabs-button.-active {
+  background-color: #ff9b51;
+}
+
+.Tabs-tab {
+  height: 0;
+  display: flex;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.Tabs-tab.-active {
+  height: auto;
+  opacity: 1;
+}
+
+.Tabs-tab.-active.-animate {
+  opacity: 0;
+}
+
+.Tabs-text {
+  padding: 10px 100px;
+}

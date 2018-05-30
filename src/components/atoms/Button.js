@@ -1,10 +1,22 @@
 import React from 'react'
+import { string, node } from 'prop-types'
 
 import './Button.css'
 
-const Button = ({link, children, className}) => (
+const Button = ({link, className, children}) => (
   <a href={link}
      className={className ? `Button -${className}` : 'Button'}>{children}</a>
 )
+
+Button.defaultProps = {
+  link: '#',
+  children: 'Download'
+}
+
+Button.propTypes = {
+  link: string.isRequired,
+  children: node.isRequired,
+  className: string
+}
 
 export default Button

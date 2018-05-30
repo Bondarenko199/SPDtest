@@ -3,7 +3,11 @@ import React from 'react'
 import { Header, Footer } from '../organisms'
 import {
   IntroSectionContainer,
-  BrandBarSectionContainer
+  BrandBarSectionContainer,
+  TabsSectionContainer,
+  SubListSectionContainer,
+  PictureSectionContainer,
+  ProcessSectionContainer
 } from '../../containers'
 
 const Home = () => (
@@ -12,6 +16,10 @@ const Home = () => (
     <main className="content">
       <IntroSectionContainer/>
       <BrandBarSectionContainer/>
+      <TabsSectionContainer/>
+      <SubListSectionContainer/>
+      <PictureSectionContainer/>
+      <ProcessSectionContainer/>
     </main>
     <Footer/>
   </React.Fragment>

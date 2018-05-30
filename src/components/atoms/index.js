@@ -1,13 +1,13 @@
 import Logo from './Logo'
-import PopularLinksItem from './PopularLinksItem'
 import Text from './Text'
 import Headline from './Headline'
 import Button from './Button'
+import Image from './Image'
 
 export {
   Logo,
-  PopularLinksItem,
   Text,
   Headline,
-  Button
+  Button,
+  Image
 }
