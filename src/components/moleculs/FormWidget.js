@@ -1,4 +1,5 @@
 import React from 'react'
+import { string, arrayOf, objectOf } from 'prop-types'
 
 import './FormWidget.css'
 
@@ -16,7 +17,8 @@ class FormWidget extends React.Component {
 
   render() {
     return (
-      <form className={this.props.className ? `FormWidget -${this.props.className}` : 'FormWidget'}>
+      <form
+        className={this.props.className ? `FormWidget -${this.props.className}` : 'FormWidget'}>
         <h3 className="FormWidget-title">Try your <span
           className="FormWidget-title-color">free</span> trial today</h3>
         <div className="FormWidget-wrapper">
@@ -37,5 +39,9 @@ class FormWidget extends React.Component {
   }
 }
 
+FormWidget.propTypes = {
+  className: string,
+  inputs: arrayOf(objectOf(string.isRequired))
+}
 
 export default FormWidget

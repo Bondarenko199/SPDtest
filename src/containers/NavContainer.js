@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { Nav } from './../components/moleculs'
+import { Nav } from '../components/moleculs'
+
+import img from '../assets/popular-link-thumbnail.jpg'
 
 class NavContainer extends React.Component {
   constructor(props) {
@@ -8,129 +10,133 @@ class NavContainer extends React.Component {
     this.state = {
       links: [
         {
+          id: '1',
           linkName: 'Features',
-          path: '/features',
-          id: '1'
+          path: '/features'
         },
         {
+          id: '2',
           linkName: 'About',
-          path: '/about',
-          id: '2'
+          path: '/about'
         },
         {
+          id: '3',
           linkName: 'Pricing',
-          path: '/pricing',
-          id: '3'
+          path: '/pricing'
         },
         {
+          id: '4',
           linkName: 'Reviews',
-          path: '/reviews',
-          id: '4'
+          path: '/reviews'
         },
         {
+          id: '5',
           linkName: 'Contact',
-          path: '/contact',
-          id: '5'
+          path: '/contact'
         }
       ],
       subLinks: [
         {
+          id: '1',
           linkName: 'Product',
-          path: '/#',
-          id: '1'
+          path: '/#'
         },
         {
+          id: '2',
           linkName: 'API and Datafeed',
-          path: '/#',
-          id: '2'
+          path: '/#'
         },
         {
+          id: '3',
           linkName: 'Platform',
-          path: '/#',
-          id: '3'
+          path: '/#'
         },
         {
+          id: '4',
           linkName: 'Mobile',
-          path: '/#',
-          id: '4'
+          path: '/#'
         },
         {
+          id: '5',
           linkName: 'News & Analysis',
-          path: '/#',
-          id: '5'
+          path: '/#'
         },
         {
+          id: '6',
           linkName: 'Reports',
-          path: '/#',
-          id: '6'
+          path: '/#'
         },
         {
+          id: '7',
           linkName: 'Videos',
-          path: '/#',
-          id: '7'
+          path: '/#'
         },
         {
+          id: '8',
           linkName: 'Subscribe to N&A',
-          path: '/#',
-          id: '8'
+          path: '/#'
         }, {
+          id: '9',
           linkName: 'News & Analysis',
-          path: '/#',
-          id: '9'
+          path: '/#'
         },
         {
+          id: '10',
           linkName: 'Reports',
-          path: '/#',
-          id: '10'
+          path: '/#'
         },
         {
+          id: '11',
           linkName: 'Videos',
-          path: '/#',
-          id: '11'
+          path: '/#'
         },
         {
+          id: '12',
           linkName: 'Subscribe to N&A',
-          path: '/#',
-          id: '12'
+          path: '/#'
         },
         {
+          id: '13',
           linkName: 'News & Analysis',
-          path: '/#',
-          id: '13'
+          path: '/#'
         },
         {
+          id: '14',
           linkName: 'Reports',
-          path: '/#',
-          id: '14'
+          path: '/#'
         },
         {
+          id: '15',
           linkName: 'Videos',
-          path: '/#',
-          id: '15'
+          path: '/#'
         },
         {
+          id: '16',
           linkName: 'Subscribe to N&A',
-          path: '/#',
-          id: '16'
+          path: '/#'
         },
       ],
       popularLinks: [
         {
+          id: '1',
           linkName: 'About Us',
           path: '/#',
-          id: '1'
+          img: img
         }, {
+          id: '2',
           linkName: 'Our Partners',
           path: '/#',
-          id: '2'
+          img: img
         }, {
+          id: '3',
           linkName: 'Careers',
           path: '/#',
-          id: '3'
+          img: img
         }, {
+          id: '4',
           linkName: 'Contact Us',
           path: '/#',
-          id: '4'
+          img: img
         }
       ]
     }

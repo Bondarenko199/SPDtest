@@ -1,4 +1,5 @@
 import React from 'react'
+import { string, arrayOf, objectOf, object } from 'prop-types'
 import { NavLink } from 'react-router-dom'
 
 import { Logo } from '../atoms'
@@ -28,5 +29,12 @@ const Nav = ({className, links, subLinks, popularLinks}) => (
     </Wrapper>
   </div>
 )
+
+Nav.propTypes = {
+  className: string,
+  links: arrayOf(objectOf(string.isRequired)),
+  subLinks: arrayOf(object),
+  popularLinks: arrayOf(object)
+}
 
 export default Nav

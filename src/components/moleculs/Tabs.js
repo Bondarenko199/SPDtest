@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrayOf, objectOf, string } from 'prop-types'
 
 import { Headline, Text, Button } from '../atoms'
 
@@ -50,7 +51,7 @@ class Tabs extends React.Component {
                 <Headline classame="tab">{el.title}</Headline>
                 <Text className="spaced">{el.text}</Text>
                 <Text className="spaced">{el.subtext}</Text>
-                <Button link={el.link}>Download</Button>
+                <Button link={el.link}/>
               </div>
               <div className="Tabs-img">
                 <img src={el.img} alt={el.name}/>
@@ -61,6 +62,10 @@ class Tabs extends React.Component {
       </React.Fragment>
     )
   }
+}
+
+Tabs.propTypes = {
+  tabs: arrayOf(objectOf(string.isRequired))
 }
 
 export default Tabs

@@ -1,4 +1,5 @@
 import React from 'react'
+import { string } from 'prop-types'
 
 import { IconsList } from './../components/moleculs'
 
@@ -51,6 +52,10 @@ class IconsListContainer extends React.Component {
       <IconsList className={this.props.className} icons={this.state.icons}/>
     )
   }
+}
+
+IconsListContainer.propTypes = {
+  className: string
 }
 
 export default IconsListContainer

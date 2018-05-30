@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrayOf, objectOf, string } from 'prop-types'
 
 import './SubLinks.css'
 
@@ -13,5 +14,9 @@ const SubLinks = ({subLinks}) => (
     ))}
   </ul>
 )
+
+SubLinks.propTypes = {
+  subLinks: arrayOf(objectOf(string.isRequired))
+}
 
 export default SubLinks

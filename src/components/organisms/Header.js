@@ -1,4 +1,5 @@
 import React from 'react'
+import { string } from 'prop-types'
 
 import { NavContainer } from './../../containers'
 
@@ -9,5 +10,9 @@ const Header = ({className}) => (
     <NavContainer/>
   </header>
 )
+
+Header.propTypes = {
+  className: string
+}
 
 export default Header

@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrayOf, object } from 'prop-types'
 
 import { Wrapper } from './'
 import { Tabs } from '../moleculs'
@@ -15,5 +16,8 @@ const TabsSection = ({tabs}) => (
   </section>
 )
 
+TabsSection.propTypes = {
+  tabs: arrayOf(object)
+}
 
 export default TabsSection

@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrayOf, objectOf, string } from 'prop-types'
 
 import { Text } from '../atoms'
 
@@ -19,5 +20,9 @@ const SubList = ({subList}) => (
     ))}
   </ul>
 )
+
+SubList.propTypes = {
+  subList: arrayOf(objectOf(string.isRequired))
+}
 
 export default SubList

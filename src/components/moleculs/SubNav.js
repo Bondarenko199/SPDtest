@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrayOf, object } from 'prop-types'
 
 import { PopularLinks, SubLinks } from './'
 
@@ -16,5 +17,9 @@ const SubNav = ({popularLinks, subLinks}) => (
     </div>
   </div>
 )
+
+SubNav.propTypes = {
+  popularLinks: arrayOf(object)
+}
 
 export default SubNav

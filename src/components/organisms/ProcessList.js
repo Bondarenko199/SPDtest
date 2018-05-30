@@ -1,4 +1,5 @@
 import React from 'react'
+import { arrayOf, objectOf, string } from 'prop-types'
 
 import { Image } from '../atoms'
 
@@ -17,5 +18,10 @@ const ProcessList = ({processes}) => (
     ))}
   </ul>
 )
+
+ProcessList.propTypes = {
+  processes: arrayOf(objectOf(string))
+}
+
 
 export default ProcessList

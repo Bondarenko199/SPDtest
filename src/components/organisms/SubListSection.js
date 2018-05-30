@@ -1,11 +1,12 @@
 import React from 'react'
+import { string, arrayOf, object } from 'prop-types'
 
 import { Wrapper, SubList } from './'
 import { Headline, Text, Image } from '../atoms'
 
 import './SubListSection.css'
 
-const SubListSection = ({title, text, subList, img}) => (
+const SubListSection = ({img, title, text, subList}) => (
   <section className="SubListSection">
     <Wrapper>
       <div className="SubListSection-wrapper">
@@ -21,5 +22,12 @@ const SubListSection = ({title, text, subList, img}) => (
     </Wrapper>
   </section>
 )
+
+SubListSection.propTypes = {
+  img: string.isRequired,
+  title: string.isRequired,
+  text: string.isRequired,
+  subList: arrayOf(object)
+}
 
 export default SubListSection

@@ -1,4 +1,5 @@
 import React from 'react'
+import { string } from 'prop-types'
 import { Link } from 'react-router-dom'
 
 import logo from '../../assets/logo.png'
@@ -12,5 +13,9 @@ const Logo = ({className}) => (
     />
   </Link>
 )
+
+Logo.propTypes = {
+  className: string
+}
 
 export default Logo

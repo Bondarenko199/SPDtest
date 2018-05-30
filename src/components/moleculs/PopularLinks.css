@@ -8,3 +8,25 @@
   width: 25%;
   margin: 0 16px;
 }
+
+.PopularLinksItem {
+  display: block;
+  transition: .1s ease-in-out;
+}
+
+.PopularLinksItem:hover {
+  transform: scale(1.1) translateY(-4px);
+}
+
+.PopularLinksItem-name {
+  margin-bottom: 12px;
+  display: block;
+  font-size: 14px;
+  color: #646464;
+}
+
+.PopularLinksItem-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+}

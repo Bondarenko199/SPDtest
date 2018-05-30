@@ -1,4 +1,5 @@
 import React from 'react'
+import { string } from 'prop-types'
 
 import { Wrapper } from './'
 import { Headline, Text } from '../atoms'
@@ -21,5 +22,10 @@ const BrandBarSection = ({title, text}) => (
     </Wrapper>
   </section>
 )
+
+BrandBarSection.propTypes = {
+  title: string.isRequired,
+  text: string.isRequired
+}
 
 export default BrandBarSection
