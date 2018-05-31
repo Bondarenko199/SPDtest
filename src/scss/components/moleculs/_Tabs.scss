@@ -10,10 +10,9 @@
   margin-bottom: 1px;
   background: #37495e;
   border: none;
-}
-
-.Tabs-button.-active {
-  background-color: #ff9b51;
+  &.-active {
+    background-color: #ff9b51;
+  }
 }
 
 .Tabs-tab {
@@ -22,15 +21,13 @@
   overflow: hidden;
   opacity: 0;
   transition: opacity .2s ease-in-out;
-}
-
-.Tabs-tab.-active {
-  height: auto;
-  opacity: 1;
-}
-
-.Tabs-tab.-active.-animate {
-  opacity: 0;
+  &.-active {
+    height: auto;
+    opacity: 1;
+    &.-animate {
+      opacity: 0;
+    }
+  }
 }
 
 .Tabs-text {

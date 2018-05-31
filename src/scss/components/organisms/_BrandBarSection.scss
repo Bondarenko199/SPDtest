@@ -7,9 +7,12 @@
 }
 
 .BrandBarSection-item-l {
-  width: 33.3333%;
+  max-width: 365px;
+  width: 100%;
 }
 
 .BrandBarSection-item-r {
-  width: 66.6666%;
+  max-width: 695px;
+  width: 100%;
+  margin-left: auto;
 }

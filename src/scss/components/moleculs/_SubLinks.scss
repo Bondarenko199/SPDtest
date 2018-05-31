@@ -1,18 +1,15 @@
 .SubLinks {
   padding: 50px 0;
   columns: 4;
-}
-
-.SubLinks-list-item {
-  margin-bottom: 12px;
-}
-
-.SubLinks-item {
-  display: block;
-  color: #646464;
-  transition: .1s ease-in-out;
-}
-
-.SubLinks-item:hover {
-  color: #ff9b51;
+  &-list-item {
+    margin-bottom: 12px;
+  }
+  &-item {
+    display: block;
+    color: #646464;
+    transition: .1s ease-in-out;
+    &:hover {
+      color: #ff9b51;
+    }
+  }
 }

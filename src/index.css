@@ -215,6 +215,13 @@ body,
   background: #ff9b51;
 }
 
+.SubNav {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
 .SubNav-wrapper {
   max-height: 0;
   position: absolute;
@@ -225,13 +232,6 @@ body,
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   transition: .5s ease;
-}
-
-.SubNav {
-  max-width: 1290px;
-  width: 100%;
-  margin: 0 auto;
-  display: flex;
 }
 
 .SubNav-item {
@@ -352,8 +352,13 @@ body,
   justify-content: flex-end;
 }
 
+.IconsList.-footer {
+  margin-bottom: 12px;
+  justify-content: center;
+}
+
 .Icon {
-  padding: 5px 23px;
+  padding: 5px 30px;
   display: block;
   color: #ccc;
   font-size: 48px;
@@ -364,11 +369,6 @@ body,
 .Icon:hover {
   color: #ff9b51;
   transform: scale(1.2) translateY(-3px);
-}
-
-.IconsList.-footer {
-  margin-bottom: 12px;
-  justify-content: center;
 }
 
 .Icon.-footer {
@@ -516,11 +516,14 @@ body,
 }
 
 .BrandBarSection-item-l {
-  width: 33.3333%;
+  max-width: 365px;
+  width: 100%;
 }
 
 .BrandBarSection-item-r {
-  width: 66.6666%;
+  max-width: 695px;
+  width: 100%;
+  margin-left: auto;
 }
 
 .TabsSection {

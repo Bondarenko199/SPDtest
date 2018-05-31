@@ -6,14 +6,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.Nav-relative {
-  position: relative;
-}
-
-.Nav-list {
-  display: flex;
+  &-relative {
+    position: relative;
+  }
+  &-list {
+    display: flex;
+  }
 }
 
 .NavItem {
@@ -21,8 +19,8 @@
   display: block;
   color: #fff;
   transition: .2s ease-in-out;
+  &:hover {
+    background: #ff9b51;
+  }
 }
 
-.NavItem:hover {
-  background: #ff9b51;
-}
