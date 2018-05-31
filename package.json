@@ -15,7 +15,7 @@
     "build": "npm-run-all build-css build-js",
     "start-js": "react-scripts start",
     "build-js": "react-scripts build",
-    "watch-css": "npm run build-css && node-sass-chokidar ./src/scss -o ./src --watch --recursive",
+    "watch-css": "npm run build-css && node-sass-chokidar ./src/scss -o ./src --watch --recursive --output-style expanded",
     "build-css": "node-sass-chokidar ./src/scss -o ./src"
   },
   "devDependencies": {

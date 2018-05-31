@@ -1,8 +1,6 @@
 import React from 'react'
 import { string, node } from 'prop-types'
 
-import './Headline.css'
-
 const Headline = ({className, children}) => (
   <h2
     className={className ? `Headline -${className}` : 'Headline'}>{children}</h2>

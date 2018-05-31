@@ -1,8 +1,6 @@
 import React from 'react'
 import { string } from 'prop-types'
 
-import './Image.css'
-
 const Image = ({src, alt, className}) => (
   <img src={src} alt={alt}
        className={className ? `Image -${className}` : 'Image'}/>
