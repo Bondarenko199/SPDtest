@@ -4,8 +4,6 @@ import { string, arrayOf, object } from 'prop-types'
 import { Wrapper, ProcessList } from './'
 import { SectionHeader } from '../moleculs'
 
-import './ProcessSection.css'
-
 const ProcessSection = ({title, subtitle, processes}) => (
   <section className="ProcessSection">
     <Wrapper>

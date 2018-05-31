@@ -3,8 +3,6 @@ import { arrayOf, objectOf, string } from 'prop-types'
 
 import { Headline, Text, Button } from '../atoms'
 
-import './Tabs.css'
-
 class Tabs extends React.Component {
   constructor(props) {
     super(props)

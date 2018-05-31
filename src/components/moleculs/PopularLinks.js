@@ -1,8 +1,6 @@
 import React from 'react'
 import { arrayOf, objectOf, string } from 'prop-types'
 
-import './PopularLinks.css'
-
 const PopularLinks = ({popularLinks}) => (
   <ul className="PopularLinks">
     {popularLinks.map(el => (

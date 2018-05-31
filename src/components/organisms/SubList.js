@@ -3,8 +3,6 @@ import { arrayOf, objectOf, string } from 'prop-types'
 
 import { Text } from '../atoms'
 
-import './SubList.css'
-
 const SubList = ({subList}) => (
   <ul className="SubList">
     {subList.map(el => (

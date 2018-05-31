@@ -3,8 +3,6 @@ import { string } from 'prop-types'
 
 import { NavContainer } from './../../containers'
 
-import './Header.css'
-
 const Header = ({className}) => (
   <header className={className ? `Header -${className}` : 'Header'}>
     <NavContainer/>

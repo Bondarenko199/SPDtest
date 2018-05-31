@@ -1,8 +1,6 @@
 import React from 'react'
 import { string, arrayOf, objectOf } from 'prop-types'
 
-import './FormWidget.css'
-
 class FormWidget extends React.Component {
   constructor(props) {
     super(props)

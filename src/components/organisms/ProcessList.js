@@ -3,8 +3,6 @@ import { arrayOf, objectOf, string } from 'prop-types'
 
 import { Image } from '../atoms'
 
-import './ProcessList.css'
-
 const ProcessList = ({processes}) => (
   <ul className="ProcessList">
     {processes.map(el => (

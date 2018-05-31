@@ -6,8 +6,6 @@ import { Logo } from '../atoms'
 import { SubNav } from '../moleculs'
 import { Wrapper } from '../organisms'
 
-import './Nav.css'
-
 const Nav = ({className, links, subLinks, popularLinks}) => (
   <div className="Nav-relative">
     <Wrapper>

@@ -3,8 +3,6 @@ import { arrayOf, object } from 'prop-types'
 
 import { PopularLinks, SubLinks } from './'
 
-import './SubNav.css'
-
 const SubNav = ({popularLinks, subLinks}) => (
   <div className="SubNav-wrapper">
     <div className="SubNav">

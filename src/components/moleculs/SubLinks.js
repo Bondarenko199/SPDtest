@@ -1,8 +1,6 @@
 import React from 'react'
 import { arrayOf, objectOf, string } from 'prop-types'
 
-import './SubLinks.css'
-
 import { NavLink } from 'react-router-dom'
 
 const SubLinks = ({subLinks}) => (

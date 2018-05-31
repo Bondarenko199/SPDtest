@@ -1,8 +1,6 @@
 import React from 'react'
 import { string } from 'prop-types'
 
-import './SectionHeader.css'
-
 const SectionHeader = ({className, title, subtitle}) => (
   <div className={className ? `SectionHeader -${className}` : 'SectionHeader'}>
     <h2 className="SectionHeader-title">{title}</h2>

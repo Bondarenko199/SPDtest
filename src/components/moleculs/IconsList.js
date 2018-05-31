@@ -1,8 +1,6 @@
 import React from 'react'
 import { string, arrayOf, objectOf } from 'prop-types'
 
-import './IconsList.css'
-
 const IconsList = ({className, icons}) => (
   <ul className={className ? `IconsList -${className}` : 'IconsList'}>
     {icons.map(el => (

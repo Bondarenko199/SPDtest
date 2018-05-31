@@ -5,7 +5,6 @@ import { Wrapper } from './'
 import { Text, Button } from '../atoms'
 import { FormWidgetContainer } from '../../containers'
 
-import './IntroSection.css'
 import background from '../../assets/header-panel.jpg'
 
 const IntroSection = ({title, text, downloadLink, inputs}) => (

@@ -5,8 +5,6 @@ import { Wrapper } from './'
 import { Headline, Text } from '../atoms'
 import { IconsListContainer } from '../../containers'
 
-import './BrandBarSection.css'
-
 const BrandBarSection = ({title, text}) => (
   <section className="BrandBarSection">
     <Wrapper>

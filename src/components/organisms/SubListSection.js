@@ -4,8 +4,6 @@ import { string, arrayOf, object } from 'prop-types'
 import { Wrapper, SubList } from './'
 import { Headline, Text, Image } from '../atoms'
 
-import './SubListSection.css'
-
 const SubListSection = ({img, title, text, subList}) => (
   <section className="SubListSection">
     <Wrapper>

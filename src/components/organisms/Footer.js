@@ -3,8 +3,6 @@ import React from 'react'
 import { Wrapper } from './'
 import { IconsListContainer } from '../../containers'
 
-import './Footer.css'
-
 const Footer = () => (
   <footer className='Footer'>
     <Wrapper>

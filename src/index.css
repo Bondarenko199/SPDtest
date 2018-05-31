@@ -185,3 +185,447 @@ body,
 .Image.-decorated {
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
 }
+
+.Nav-list-wrapper:hover .SubNav-wrapper {
+  max-height: 600px;
+}
+
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav-relative {
+  position: relative;
+}
+
+.Nav-list {
+  display: flex;
+}
+
+.NavItem {
+  padding: 30px 20px;
+  display: block;
+  color: #fff;
+  transition: .2s ease-in-out;
+}
+
+.NavItem:hover {
+  background: #ff9b51;
+}
+
+.SubNav-wrapper {
+  max-height: 0;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: .5s ease;
+}
+
+.SubNav {
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.SubNav-item {
+  width: 50%;
+  padding: 0 25px;
+}
+
+.SubLinks {
+  padding: 50px 0;
+  columns: 4;
+}
+
+.SubLinks-list-item {
+  margin-bottom: 12px;
+}
+
+.SubLinks-item {
+  display: block;
+  color: #646464;
+  transition: .1s ease-in-out;
+}
+
+.SubLinks-item:hover {
+  color: #ff9b51;
+}
+
+.PopularLinks {
+  padding: 26px 0 50px;
+  margin: 0 -16px;
+  display: flex;
+}
+
+.PopularLinks-list-item {
+  width: 25%;
+  margin: 0 16px;
+}
+
+.PopularLinksItem {
+  display: block;
+  transition: .1s ease-in-out;
+}
+
+.PopularLinksItem:hover {
+  transform: scale(1.1) translateY(-4px);
+}
+
+.PopularLinksItem-name {
+  margin-bottom: 12px;
+  display: block;
+  font-size: 14px;
+  color: #646464;
+}
+
+.PopularLinksItem-thumbnail {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.FormWidget {
+  max-width: 360px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  border-radius: 3px;
+}
+
+.FormWidget-title {
+  padding: 18px;
+  background-color: #f5f5f5;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 3px 3px 0 0;
+}
+
+.FormWidget-title-color {
+  color: #ff9b51;
+  text-transform: uppercase;
+}
+
+.FormWidget-wrapper {
+  padding: 36px 36px 0;
+  background-color: #fff;
+}
+
+.FormWidget input {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #bdbdbd;
+  border: none;
+  border-bottom: 1px solid;
+}
+
+.FormWidget input:last-child {
+  margin-bottom: 50px;
+}
+
+.FormWidget input::placeholder {
+  color: #bdbdbd;
+}
+
+.FormWidget button[type=submit] {
+  padding: 20px 0;
+  margin-bottom: 0;
+  background-color: #ff9b51;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0 0 3px 3px;
+  transition: .2s ease-in-out;
+}
+
+.IconsList {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Icon {
+  padding: 5px 23px;
+  display: block;
+  color: #ccc;
+  font-size: 48px;
+  font-weight: 400;
+  transition: .1s ease-in-out;
+}
+
+.Icon:hover {
+  color: #ff9b51;
+  transform: scale(1.2) translateY(-3px);
+}
+
+.IconsList.-footer {
+  margin-bottom: 12px;
+  justify-content: center;
+}
+
+.Icon.-footer {
+  padding: 12px;
+  display: block;
+  font-size: 24px;
+}
+
+.Icon.-footer:hover {
+  transform: scale(1.5) translateY(-3px);
+}
+
+.Tabs-buttons-list {
+  min-width: 112px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.Tabs-button {
+  width: 112px;
+  height: 112px;
+  margin-bottom: 1px;
+  background: #37495e;
+  border: none;
+}
+
+.Tabs-button.-active {
+  background-color: #ff9b51;
+}
+
+.Tabs-tab {
+  height: 0;
+  display: flex;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.Tabs-tab.-active {
+  height: auto;
+  opacity: 1;
+}
+
+.Tabs-tab.-active.-animate {
+  opacity: 0;
+}
+
+.Tabs-text {
+  padding: 10px 100px;
+}
+
+.SectionHeader {
+  margin-bottom: 55px;
+}
+
+.SectionHeader-title {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.SectionHeader-title:after {
+  content: '';
+  width: 65px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff9b51;
+}
+
+.SectionHeader-subtitle {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+}
+
+.Wrapper {
+  max-width: 1105px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.Header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #37495e;
+  z-index: 3;
+}
+
+.Intro {
+  background-size: cover;
+  background-position: center;
+}
+
+.Intro-wrapper {
+  height: 100vh;
+  display: flex;
+}
+
+.Intro-item {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Intro-title {
+  padding-bottom: 35px;
+  margin-bottom: 35px;
+  position: relative;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.Intro-title:after {
+  content: '';
+  height: 2px;
+  width: 66px;
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+}
+
+.BrandBarSection {
+  padding: 22px 0;
+}
+
+.BrandBarSection-wrapper {
+  display: flex;
+}
+
+.BrandBarSection-item-l {
+  width: 33.3333%;
+}
+
+.BrandBarSection-item-r {
+  width: 66.6666%;
+}
+
+.TabsSection {
+  padding: 145px 0 115px;
+  background-color: #f5f5f5;
+}
+
+.TabsSection-wrapper {
+  display: flex;
+}
+
+.SubListSection {
+  padding: 105px 0 130px;
+}
+
+.SubListSection-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SubListSection-img-wrapper {
+  max-width: 453px;
+  width: 100%;
+}
+
+.SubListSection-text-wrapper {
+  max-width: 415px;
+  width: 100%;
+}
+
+.SubList-item {
+  margin-bottom: 40px;
+  display: flex;
+}
+
+.SubList-item-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+.SubList-item-headline {
+  margin-bottom: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+}
+
+.PictureSection {
+  padding: 90px 130px;
+  background-color: #f5f5f5;
+}
+
+.PictureSection-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PictureSection-text-wrapper {
+  max-width: 475px;
+  width: 100%;
+}
+
+.PictureSection-img-wrapper {
+  max-width: 453px;
+  width: 100%;
+}
+
+.ProcessSection {
+  padding: 90px 0 105px;
+}
+
+.ProcessList {
+  margin: 0 -15px;
+  display: flex;
+}
+
+.ProcessList-item {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ProcessList-icon {
+  max-width: 70px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.ProcessList-title {
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.ProcessList-text {
+  text-align: center;
+}
+
+.Footer {
+  padding: 8px 0 20px;
+  background-color: #37495e;
+}
+
+.copyrights {
+  text-align: center;
+  color: #ccc;
+}

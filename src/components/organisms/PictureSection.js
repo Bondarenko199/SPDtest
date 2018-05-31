@@ -4,8 +4,6 @@ import { string } from 'prop-types'
 import { Wrapper } from './'
 import { Headline, Text, Image } from '../atoms'
 
-import './PictureSection.css'
-
 const PictureSection = ({title, text, subText, img}) => (
   <section className="PictureSection">
     <Wrapper>
