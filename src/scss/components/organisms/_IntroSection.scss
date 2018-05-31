@@ -19,7 +19,7 @@
     font-size: 36px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #fff;
+    color: $light-text;
     &:after {
       content: '';
       height: 2px;
@@ -28,7 +28,7 @@
       position: absolute;
       top: 100%;
       left: 0;
-      background-color: #fff;
+      background-color: $light-bg;
     }
   }
 }

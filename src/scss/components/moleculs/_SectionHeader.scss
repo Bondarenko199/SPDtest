@@ -17,13 +17,13 @@
       top: 100%;
       left: 50%;
       transform: translateX(-50%);
-      background-color: #ff9b51;
+      background-color: $color-bg;
     }
   }
   &-subtitle {
     text-align: center;
     font-size: 14px;
     font-weight: 400;
-    color: #86878b;
+    color: $light-dark-text;
   }
 }

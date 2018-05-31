@@ -1,6 +1,5 @@
 .Headline {
   margin-bottom: 50px;
-  color: #000;
   font-size: 20px;
   font-weight: 700;
   &.-left {
@@ -24,7 +23,7 @@
       width: 65px;
       height: 2px;
       display: block;
-      background-color: #ff9b51;
+      background-color: $color-bg;
       position: absolute;
       top: 100%;
       left: 0;

@@ -8,10 +8,10 @@
   width: 112px;
   height: 112px;
   margin-bottom: 1px;
-  background: #37495e;
+  background-color: $dark-bg;
   border: none;
   &.-active {
-    background-color: #ff9b51;
+    background-color: $color-bg;
   }
 }
 

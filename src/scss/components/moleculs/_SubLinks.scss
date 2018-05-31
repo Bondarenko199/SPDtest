@@ -6,10 +6,10 @@
   }
   &-item {
     display: block;
-    color: #646464;
+    color: $dark-text;
     transition: .1s ease-in-out;
     &:hover {
-      color: #ff9b51;
+      color: $color-text;
     }
   }
 }

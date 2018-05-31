@@ -113,7 +113,6 @@ body,
 
 .Headline {
   margin-bottom: 50px;
-  color: #000;
   font-size: 20px;
   font-weight: 700;
 }
@@ -391,7 +390,7 @@ body,
   width: 112px;
   height: 112px;
   margin-bottom: 1px;
-  background: #37495e;
+  background-color: #37495e;
   border: none;
 }
 
@@ -569,7 +568,6 @@ body,
   margin-bottom: 12px;
   font-size: 14px;
   font-weight: 400;
-  color: #000;
 }
 
 .PictureSection {

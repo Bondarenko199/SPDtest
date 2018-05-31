@@ -4,19 +4,19 @@
   align-self: flex-start;
   font-size: 15px;
   font-weight: 400;
-  color: #fff;
-  background-color: #ff9b51;
+  color: $light-text;
+  background-color: $color-bg;
   border-radius: 3px;
   transition: .2s ease-in-out;
   &.-light {
-    border: 2px solid #fff;
+    border: 2px solid $light-border;
     background-color: transparent;
     border-radius: 0;
   }
   &:hover,
   &.-light:hover {
-    color: #ff9b51;
-    background-color: #fff;
+    color: $color-text;
+    background-color: $light-bg;
   }
 }
 

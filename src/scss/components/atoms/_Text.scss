@@ -1,12 +1,12 @@
 .Text {
   font-size: 14px;
   font-weight: 400;
-  color: #86878b;
+  color: $light-dark-text;
   &.-intro {
     margin-bottom: 35px;
     font-size: 16px;
     font-weight: 300;
-    color: #fff;
+    color: $light-text;
   }
   &.-sublist {
     margin-bottom: 45px;
