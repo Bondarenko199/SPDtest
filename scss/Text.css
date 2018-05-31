@@ -1,0 +1,20 @@
+.Text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+}
+
+.Text.-intro {
+  margin-bottom: 35px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.Text.-sublist {
+  margin-bottom: 45px;
+}
+
+.Text.-spaced {
+  margin-bottom: 30px;
+}

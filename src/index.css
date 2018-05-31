@@ -1,71 +1,92 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-}
+  font-family: sans-serif; }
+
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 a {
-  transition: 0.3s all ease-out;
-}
+  transition: 0.3s all ease-out; }
 
 a, a:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 select, input, textarea {
-  vertical-align: middle;
-}
+  vertical-align: middle; }
 
 textarea {
-  vertical-align: top;
-}
+  vertical-align: top; }
 
 :focus {
-  outline: none;
-}
+  outline: none; }
 
 input[type=submit] {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 div, p, a, span, em, strong, img, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, table, td, tr, form, fieldset, label, select, input, textarea {
   padding: 0;
   margin: 0;
   line-height: 1em;
   outline: none;
-  list-style: none;
-}
+  list-style: none; }
 
 button {
   -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
+  transition: .3s ease-in-out; }
 
 button:hover {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
+  display: none; }
 
 input[type="search"]::-ms-clear {
-  display: none;
-}
+  display: none; }
+
+html,
+body,
+.root,
+.App {
+  height: 100%; }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+
+.content {
+  flex: 1; }
+
+.Button {
+  padding: 15px 32px;
+  display: block;
+  align-self: flex-start;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #ff9b51;
+  border-radius: 3px;
+  transition: .2s ease-in-out; }
+
+.Button.-light {
+  border: 2px solid #fff;
+  background-color: transparent;
+  border-radius: 0; }
+
+.Button:hover,
+.Button.-light:hover {
+  color: #ff9b51;
+  background-color: #fff; }

@@ -11,8 +11,6 @@ import {
   Error
 } from './pages/'
 
-import './App.css'
-
 const App = () => (
   <div className="App">
     <BrowserRouter>
