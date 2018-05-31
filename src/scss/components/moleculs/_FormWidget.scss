@@ -4,13 +4,14 @@
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  border-radius: 3px;
+  border-radius: 5px;
   &-title {
     padding: 18px;
     background-color: $mid-tone-bg;
     text-align: center;
     text-transform: capitalize;
-    border-radius: 3px 3px 0 0;
+    font: 700 $main-headline-font-size-resp $main-font-family;
+    border-radius: 5px 5px 0 0;
     &-color {
       color: $color-text;
       text-transform: uppercase;
@@ -24,6 +25,7 @@
     width: 100%;
     padding: 10px 14px;
     margin-bottom: 30px;
+    font: 400 $main-font-size-resp $main-font-family;
     font-size: 14px;
     color: $mid-tone-text;
     border: none;
@@ -38,10 +40,22 @@
   & button[type=submit] {
     padding: 20px 0;
     margin-bottom: 0;
+    font: 600 $button-font-size $main-font-family;
     background-color: $color-bg;
     color: $light-text;
     border: 1px solid transparent;
-    border-radius: 0 0 3px 3px;
+    border-radius: 0 0 5px 5px;
     transition: .2s ease-in-out;
+  }
+}
+
+@include xl {
+  .FormWidget {
+    &-title {
+      font-size: $main-headline-font-size;
+    }
+    & input {
+      font-size: $main-font-size;
+    }
   }
 }

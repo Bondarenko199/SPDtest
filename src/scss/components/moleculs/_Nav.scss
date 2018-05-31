@@ -17,6 +17,7 @@
 .NavItem {
   padding: 30px 20px;
   display: block;
+  font: 600 $main-font-size $main-font-family;
   color: $light-text;
   transition: .2s ease-in-out;
   &:hover {

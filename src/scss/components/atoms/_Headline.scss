@@ -1,7 +1,6 @@
 .Headline {
   margin-bottom: 50px;
-  font-size: 20px;
-  font-weight: 700;
+  font: 700 $main-headline-font-size-resp $main-font-family;
   &.-left {
     text-align: left;
   }
@@ -28,5 +27,11 @@
       top: 100%;
       left: 0;
     }
+  }
+}
+
+@include xl {
+  .Headline {
+    font-size: $main-headline-font-size;
   }
 }

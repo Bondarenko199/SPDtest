@@ -1,11 +1,11 @@
 .Text {
-  font-size: 14px;
-  font-weight: 400;
+  font: 400 $main-font-size-resp $main-font-family;
+  line-height: 20px;
   color: $light-dark-text;
   &.-intro {
     margin-bottom: 35px;
-    font-size: 16px;
-    font-weight: 300;
+    font: 300 $intro-font-size-resp $section-headline-font-family;
+    line-height: 23px;
     color: $light-text;
   }
   &.-sublist {
@@ -13,5 +13,14 @@
   }
   &.-spaced {
     margin-bottom: 30px;
+  }
+}
+
+@include xl {
+  .Text {
+    font-size: $main-font-size;
+    &.-intro {
+      font-size: $intro-font-size;
+    }
   }
 }

@@ -16,8 +16,7 @@
     padding-bottom: 35px;
     margin-bottom: 35px;
     position: relative;
-    font-size: 36px;
-    font-weight: 400;
+    font: 400 $section-headline-font-size-resp $section-headline-font-family;
     text-transform: uppercase;
     color: $light-text;
     &:after {
@@ -30,5 +29,11 @@
       left: 0;
       background-color: $light-bg;
     }
+  }
+}
+
+@include xl {
+  .Intro-title {
+    font-size: $section-headline-font-size;
   }
 }

@@ -92,8 +92,7 @@ body,
   padding: 15px 32px;
   display: inline-block;
   align-self: flex-start;
-  font-size: 15px;
-  font-weight: 400;
+  font: 600 calc(12px + (15 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
   color: #fff;
   background-color: #ff9b51;
   border-radius: 3px;
@@ -111,10 +110,15 @@ body,
   background-color: #fff;
 }
 
+@media (min-width: 1200px) {
+  .Button {
+    font-size: 15px;
+  }
+}
+
 .Headline {
   margin-bottom: 50px;
-  font-size: 20px;
-  font-weight: 700;
+  font: 700 calc(16px + (20 - 16) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
 }
 
 .Headline.-left {
@@ -150,16 +154,22 @@ body,
   left: 0;
 }
 
+@media (min-width: 1200px) {
+  .Headline {
+    font-size: 20px;
+  }
+}
+
 .Text {
-  font-size: 14px;
-  font-weight: 400;
+  font: 400 calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
+  line-height: 20px;
   color: #86878b;
 }
 
 .Text.-intro {
   margin-bottom: 35px;
-  font-size: 16px;
-  font-weight: 300;
+  font: 300 calc(14px + (16 - 14) * ((100vw - 320px) / (1400 - 320))) "Raleway", sans-serif;
+  line-height: 23px;
   color: #fff;
 }
 
@@ -169,6 +179,15 @@ body,
 
 .Text.-spaced {
   margin-bottom: 30px;
+}
+
+@media (min-width: 1200px) {
+  .Text {
+    font-size: 14px;
+  }
+  .Text.-intro {
+    font-size: 16px;
+  }
 }
 
 .Image {
@@ -206,6 +225,7 @@ body,
 .NavItem {
   padding: 30px 20px;
   display: block;
+  font: 600 14px "Open Sans", sans-serif;
   color: #fff;
   transition: .2s ease-in-out;
 }
@@ -249,6 +269,7 @@ body,
 
 .SubLinks-item {
   display: block;
+  font: 400 14px "PT Sans", sans-serif;
   color: #646464;
   transition: .1s ease-in-out;
 }
@@ -280,7 +301,7 @@ body,
 .PopularLinksItem-name {
   margin-bottom: 12px;
   display: block;
-  font-size: 14px;
+  font: 400 14px "PT Sans", sans-serif;
   color: #646464;
 }
 
@@ -296,7 +317,7 @@ body,
   display: flex;
   flex-direction: column;
   align-self: flex-end;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .FormWidget-title {
@@ -304,7 +325,8 @@ body,
   background-color: #f5f5f5;
   text-align: center;
   text-transform: capitalize;
-  border-radius: 3px 3px 0 0;
+  font: 700 calc(16px + (20 - 16) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
+  border-radius: 5px 5px 0 0;
 }
 
 .FormWidget-title-color {
@@ -321,6 +343,7 @@ body,
   width: 100%;
   padding: 10px 14px;
   margin-bottom: 30px;
+  font: 400 calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
   font-size: 14px;
   color: #bdbdbd;
   border: none;
@@ -338,11 +361,21 @@ body,
 .FormWidget button[type=submit] {
   padding: 20px 0;
   margin-bottom: 0;
+  font: 600 15px "Open Sans", sans-serif;
   background-color: #ff9b51;
   color: #fff;
   border: 1px solid transparent;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 5px 5px;
   transition: .2s ease-in-out;
+}
+
+@media (min-width: 1200px) {
+  .FormWidget-title {
+    font-size: 20px;
+  }
+  .FormWidget input {
+    font-size: 14px;
+  }
 }
 
 .IconsList {
@@ -357,7 +390,7 @@ body,
 }
 
 .Icon {
-  padding: 5px 30px;
+  padding: 5px 26px;
   display: block;
   color: #ccc;
   font-size: 48px;
@@ -390,7 +423,10 @@ body,
   width: 112px;
   height: 112px;
   margin-bottom: 1px;
+  font: 700 calc(12px + (15 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
   background-color: #37495e;
+  color: #fff;
+  text-transform: uppercase;
   border: none;
 }
 
@@ -419,6 +455,12 @@ body,
   padding: 10px 100px;
 }
 
+@media (min-width: 1200px) {
+  .Tabs-button {
+    font-size: 15px;
+  }
+}
+
 .SectionHeader {
   margin-bottom: 55px;
 }
@@ -428,8 +470,7 @@ body,
   margin-bottom: 30px;
   position: relative;
   text-align: center;
-  font-size: 36px;
-  font-weight: 400;
+  font: 400 calc(24px + (36 - 24) * ((100vw - 320px) / (1400 - 320))) "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
@@ -447,9 +488,17 @@ body,
 
 .SectionHeader-subtitle {
   text-align: center;
-  font-size: 14px;
-  font-weight: 400;
+  font: 400 calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
   color: #86878b;
+}
+
+@media (min-width: 1200px) {
+  .SectionHeader-title {
+    font-size: 36px;
+  }
+  .SectionHeader-subtitle {
+    font-size: 14px;
+  }
 }
 
 .Wrapper {
@@ -489,8 +538,7 @@ body,
   padding-bottom: 35px;
   margin-bottom: 35px;
   position: relative;
-  font-size: 36px;
-  font-weight: 400;
+  font: 400 calc(24px + (36 - 24) * ((100vw - 320px) / (1400 - 320))) "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -506,12 +554,19 @@ body,
   background-color: #fff;
 }
 
+@media (min-width: 1200px) {
+  .Intro-title {
+    font-size: 36px;
+  }
+}
+
 .BrandBarSection {
   padding: 22px 0;
 }
 
 .BrandBarSection-wrapper {
   display: flex;
+  align-items: center;
 }
 
 .BrandBarSection-item-l {
@@ -566,8 +621,13 @@ body,
 
 .SubList-item-headline {
   margin-bottom: 12px;
-  font-size: 14px;
-  font-weight: 400;
+  font: 600 calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .SubList-item-headline {
+    font-size: 14px;
+  }
 }
 
 .PictureSection {

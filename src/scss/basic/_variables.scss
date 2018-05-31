@@ -11,3 +11,18 @@ $light-dark-text: #86878b;
 $dark-text: #646464;
 
 $light-border: #fff;
+
+$main-font-size-resp: calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320)));
+$main-font-size: 14px;
+$button-font-size-resp: calc(12px + (15 - 12) * ((100vw - 320px) / (1400 - 320)));
+$button-font-size: 15px;
+$intro-font-size-resp: calc(14px + (16 - 14) * ((100vw - 320px) / (1400 - 320)));
+$intro-font-size: 16px;
+$main-headline-font-size-resp: calc(16px + (20 - 16) * ((100vw - 320px) / (1400 - 320)));
+$main-headline-font-size: 20px;
+$section-headline-font-size-resp: calc(24px + (36 - 24) * ((100vw - 320px) / (1400 - 320)));
+$section-headline-font-size: 36px;
+
+$main-font-family: 'Open Sans', sans-serif;
+$sub-nav-font-family: 'PT Sans', sans-serif;
+$section-headline-font-family: 'Raleway', sans-serif;

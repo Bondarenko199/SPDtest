@@ -17,7 +17,7 @@
   &-name {
     margin-bottom: 12px;
     display: block;
-    font-size: 14px;
+    font: 400 $main-font-size $sub-nav-font-family;
     color: $dark-text;
   }
   &-thumbnail {

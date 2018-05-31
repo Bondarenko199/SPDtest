@@ -5,8 +5,7 @@
     margin-bottom: 30px;
     position: relative;
     text-align: center;
-    font-size: 36px;
-    font-weight: 400;
+    font: 400 $section-headline-font-size-resp $section-headline-font-family;
     text-transform: uppercase;
     &:after {
       content: '';
@@ -22,8 +21,18 @@
   }
   &-subtitle {
     text-align: center;
-    font-size: 14px;
-    font-weight: 400;
+    font: 400 $main-font-size-resp $main-font-family;
     color: $light-dark-text;
+  }
+}
+
+@include xl {
+  .SectionHeader {
+    &-title {
+      font-size: $section-headline-font-size;
+    }
+    &-subtitle {
+      font-size: $main-font-size;
+    }
   }
 }

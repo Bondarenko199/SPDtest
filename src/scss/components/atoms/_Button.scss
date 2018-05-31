@@ -2,8 +2,7 @@
   padding: 15px 32px;
   display: inline-block;
   align-self: flex-start;
-  font-size: 15px;
-  font-weight: 400;
+  font: 600 $button-font-size-resp $main-font-family;
   color: $light-text;
   background-color: $color-bg;
   border-radius: 3px;
@@ -20,5 +19,8 @@
   }
 }
 
-
-
+@include xl {
+  .Button {
+    font-size: $button-font-size;
+  }
+}
