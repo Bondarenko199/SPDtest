@@ -11,6 +11,8 @@ $light-dark-text: #86878b;
 $dark-text: #646464;
 
 $light-border: #fff;
+$color-border: #ff9b51;
+$dark-border: #f5f5f5;
 
 $main-font-size-resp: calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320)));
 $main-font-size: 14px;
@@ -26,6 +28,8 @@ $section-headline-font-size-resp: calc(24px + (36 - 24) * ((100vw - 320px) / (14
 $section-headline-font-size: 36px;
 $icon-font-size-resp: calc(36px + (48 - 36) * ((100vw - 320px) / (1400 - 320)));
 $icon-font-size: 48px;
+$decorative-font-size-resp: calc(82px + (94 - 82) * ((100vw - 320px) / (1400 - 320)));
+$decorative-font-size: 94px;
 
 $main-font-family: 'Open Sans', sans-serif;
 $sub-nav-font-family: 'PT Sans', sans-serif;

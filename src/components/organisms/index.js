@@ -9,6 +9,8 @@ import SubList from './SubList'
 import PictureSection from './PictureSection'
 import ProcessSection from './ProcessSection'
 import ProcessList from './ProcessList'
+import PricingSection from './PricingSection'
+import PricingList from './PricingList'
 
 export {
   Wrapper,
@@ -21,5 +23,7 @@ export {
   SubList,
   PictureSection,
   ProcessSection,
-  ProcessList
+  ProcessList,
+  PricingSection,
+  PricingList
 }

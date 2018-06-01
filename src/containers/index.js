@@ -7,6 +7,7 @@ import TabsSectionContainer from './TabsSectionContainer'
 import SubListSectionContainer from './SubListSectionContainer'
 import PictureSectionContainer from './PictureSectionContainer'
 import ProcessSectionContainer from './ProcessSectionContainer'
+import PricingSectionContainer from './PricingSectionContainer'
 
 export {
   IconsListContainer,
@@ -17,5 +18,6 @@ export {
   TabsSectionContainer,
   SubListSectionContainer,
   PictureSectionContainer,
-  ProcessSectionContainer
+  ProcessSectionContainer,
+  PricingSectionContainer
 }

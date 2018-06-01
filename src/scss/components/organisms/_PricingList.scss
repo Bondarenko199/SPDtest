@@ -1,0 +1,77 @@
+.PricingList {
+  display: flex;
+  align-items: flex-end;
+  &-item {
+    max-width: 343px;
+    width: 100%;
+    margin: 0 20px;
+    text-align: center;
+    &-title {
+      padding: 20px;
+      background-color: $dark-bg;
+      font: 700 $main-headline-font-size-resp $main-font-family;
+      color: $light-text;
+      border-bottom: 1px solid $light-border;
+    }
+    &-price {
+      padding: 30px 20px 10px;
+      background-color: $dark-bg;
+      font: 700 $decorative-font-size-resp $section-headline-font-family;
+      color: $light-text;
+      border-bottom: 1px solid $light-border;
+    }
+    &-currency {
+      font-size: $section-headline-font-size-resp;
+    }
+    &-desc {
+      padding: 20px;
+      background-color: $dark-bg;
+      font: 600 $main-font-size-resp $main-font-family;
+      font-style: italic;
+      color: $mid-tone-text;
+      &.-border {
+        border-bottom: 5px solid $color-border;
+      }
+    }
+    &-popular {
+      padding: 15px 20px 15px;
+      background: $color-bg;
+      font: 700 $main-font-size-resp $main-font-family;
+      text-transform: uppercase;
+      color: $light-text;
+    }
+    &-advantage li {
+      padding: 15px 20px;
+      background-color: $light-bg;
+      font: 400 $main-font-size-resp $main-font-family;
+      text-transform: uppercase;
+      color: $light-dark-text;
+      border-bottom: 1px solid $dark-border;
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+@include xl {
+  .PricingList {
+    &-item {
+      &-title {
+        font-size: $main-headline-font-size;
+      }
+      &-price {
+        font-size: $decorative-font-size;
+      }
+      &-currency {
+        font-size: $section-headline-font-size;
+      }
+      &-desc {
+        font-size: $main-font-size;
+      }
+      &-popular {
+        font-size: $main-font-size;
+      }
+    }
+  }
+}

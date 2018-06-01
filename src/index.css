@@ -689,6 +689,94 @@ body,
   text-align: center;
 }
 
+.PricingList {
+  display: flex;
+  align-items: flex-end;
+}
+
+.PricingList-item {
+  max-width: 343px;
+  width: 100%;
+  margin: 0 20px;
+  text-align: center;
+}
+
+.PricingList-item-title {
+  padding: 20px;
+  background-color: #37495e;
+  font: 700 calc(16px + (20 - 16) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.PricingList-item-price {
+  padding: 30px 20px 10px;
+  background-color: #37495e;
+  font: 700 calc(82px + (94 - 82) * ((100vw - 320px) / (1400 - 320))) "Raleway", sans-serif;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.PricingList-item-currency {
+  font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1400 - 320)));
+}
+
+.PricingList-item-desc {
+  padding: 20px;
+  background-color: #37495e;
+  font: 600 calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
+  font-style: italic;
+  color: #bdbdbd;
+}
+
+.PricingList-item-desc.-border {
+  border-bottom: 5px solid #ff9b51;
+}
+
+.PricingList-item-popular {
+  padding: 15px 20px 15px;
+  background: #ff9b51;
+  font: 700 calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.PricingList-item-advantage li {
+  padding: 15px 20px;
+  background-color: #fff;
+  font: 400 calc(12px + (14 - 12) * ((100vw - 320px) / (1400 - 320))) "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #86878b;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.PricingList-item-advantage li:last-child {
+  border-bottom: none;
+}
+
+@media (min-width: 1200px) {
+  .PricingList-item-title {
+    font-size: 20px;
+  }
+  .PricingList-item-price {
+    font-size: 94px;
+  }
+  .PricingList-item-currency {
+    font-size: 36px;
+  }
+  .PricingList-item-desc {
+    font-size: 14px;
+  }
+  .PricingList-item-popular {
+    font-size: 14px;
+  }
+}
+
+.PricingSection {
+  padding: 110px 0 95px;
+  background-color: #f5f5f5;
+}
+
 .Footer {
   padding: 8px 0 20px;
   background-color: #37495e;
