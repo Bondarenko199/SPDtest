@@ -20,8 +20,12 @@ $intro-font-size-resp: calc(14px + (16 - 14) * ((100vw - 320px) / (1400 - 320)))
 $intro-font-size: 16px;
 $main-headline-font-size-resp: calc(16px + (20 - 16) * ((100vw - 320px) / (1400 - 320)));
 $main-headline-font-size: 20px;
+$footer-icon-font-size-resp: calc(20px + (24 - 20) * ((100vw - 320px) / (1400 - 320)));
+$footer-icon-font-size: 24px;
 $section-headline-font-size-resp: calc(24px + (36 - 24) * ((100vw - 320px) / (1400 - 320)));
 $section-headline-font-size: 36px;
+$icon-font-size-resp: calc(36px + (48 - 36) * ((100vw - 320px) / (1400 - 320)));
+$icon-font-size: 48px;
 
 $main-font-family: 'Open Sans', sans-serif;
 $sub-nav-font-family: 'PT Sans', sans-serif;
