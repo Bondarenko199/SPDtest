@@ -8,6 +8,7 @@ import SubListSectionContainer from './SubListSectionContainer'
 import PictureSectionContainer from './PictureSectionContainer'
 import ProcessSectionContainer from './ProcessSectionContainer'
 import PricingSectionContainer from './PricingSectionContainer'
+import TestimonialsSectionContainer from './TestimonialsSectionContainer'
 
 export {
   IconsListContainer,
@@ -19,5 +20,6 @@ export {
   SubListSectionContainer,
   PictureSectionContainer,
   ProcessSectionContainer,
-  PricingSectionContainer
+  PricingSectionContainer,
+  TestimonialsSectionContainer
 }
