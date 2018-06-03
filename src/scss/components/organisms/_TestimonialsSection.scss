@@ -45,3 +45,19 @@
     }
   }
 }
+
+@include xl {
+  .Testimonial {
+    &-text {
+      font-size: $main-font-size;
+    }
+    &-author {
+      &-name {
+        font-size: $main-headline-font-size;
+      }
+      &-position {
+        font-size: $main-font-size;
+      }
+    }
+  }
+}

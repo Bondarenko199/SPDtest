@@ -9,6 +9,7 @@ import PictureSectionContainer from './PictureSectionContainer'
 import ProcessSectionContainer from './ProcessSectionContainer'
 import PricingSectionContainer from './PricingSectionContainer'
 import TestimonialsSectionContainer from './TestimonialsSectionContainer'
+import CustomSectionContainer from './CustomSectionContainer'
 
 export {
   IconsListContainer,
@@ -21,5 +22,6 @@ export {
   PictureSectionContainer,
   ProcessSectionContainer,
   PricingSectionContainer,
-  TestimonialsSectionContainer
+  TestimonialsSectionContainer,
+  CustomSectionContainer
 }

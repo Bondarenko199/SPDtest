@@ -24,6 +24,17 @@
     font: 400 $main-font-size-resp $main-font-family;
     color: $light-dark-text;
   }
+  &.-light {
+    .SectionHeader-title {
+      color: $light-text;
+      &:after {
+        background-color: $light-bg;
+      }
+    }
+    .SectionHeader-subtitle {
+      color: $light-text;
+    }
+  }
 }
 
 @include xl {

@@ -98,12 +98,19 @@ class Slider extends React.Component {
   }
 }
 
+Slider.defaultProps = {
+  slidesCount: 1,
+  slideMargin: 0,
+  animationDuration: 500,
+  timingFunction: 'ease-in-out'
+}
+
 Slider.propTypes = {
   slidesCount: oneOfType([string, number]),
   slideMargin: oneOfType([string, number]),
   animationDuration: oneOfType([string, number]),
   timingFunction: string,
-  children: arrayOf(element)
+  children: arrayOf(element).isRequired
 }
 
 export default Slider
