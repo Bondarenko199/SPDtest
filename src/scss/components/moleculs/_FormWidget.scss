@@ -29,6 +29,11 @@
     color: $mid-tone-text;
     border: none;
     border-bottom: 1px solid;
+    &:active,
+    &:focus {
+      color: $color-text;
+      border-color: $color-border;
+    }
     &:last-child {
       margin-bottom: 50px;
     }
@@ -37,6 +42,7 @@
     }
   }
   & button[type=submit] {
+    width: 100%;
     padding: 20px 0;
     margin-bottom: 0;
     font: 600 $button-font-size $main-font-family;

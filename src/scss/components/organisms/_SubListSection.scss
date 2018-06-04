@@ -3,6 +3,7 @@
   &-wrapper {
     display: flex;
     justify-content: space-between;
+    //flex-wrap: wrap;
   }
   &-img-wrapper {
     max-width: 453px;
@@ -11,5 +12,17 @@
   &-text-wrapper {
     max-width: 415px;
     width: 100%;
+  }
+}
+
+@include md {
+  .SubListSection {
+    &-wrapper {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    &-img-wrapper {
+      margin-bottom: 30px;
+    }
   }
 }

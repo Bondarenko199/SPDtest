@@ -10,6 +10,8 @@ import ProcessSectionContainer from './ProcessSectionContainer'
 import PricingSectionContainer from './PricingSectionContainer'
 import TestimonialsSectionContainer from './TestimonialsSectionContainer'
 import CustomSectionContainer from './CustomSectionContainer'
+import ContactSectionContainer from './ContactSectionContainer'
+import FormContainer from './FormContainer'
 
 export {
   IconsListContainer,
@@ -23,5 +25,7 @@ export {
   ProcessSectionContainer,
   PricingSectionContainer,
   TestimonialsSectionContainer,
-  CustomSectionContainer
+  CustomSectionContainer,
+  ContactSectionContainer,
+  FormContainer
 }

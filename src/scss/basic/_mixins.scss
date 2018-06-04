@@ -5,25 +5,25 @@ $lg-width: 992px;
 $xl-width: 1200px;
 
 @mixin xs {
-  @media (min-width: #{$xs-width}) {
+  @media (max-width: #{$xs-width}) {
     @content
   }
 }
 
 @mixin sm {
-  @media (min-width: #{$sm-width}) {
+  @media (max-width: #{$sm-width}) {
     @content
   }
 }
 
 @mixin md {
-  @media (min-width: #{$md-width}) {
+  @media (max-width: #{$md-width}) {
     @content;
   }
 }
 
 @mixin lg {
-  @media (min-width: #{$lg-width}) {
+  @media (max-width: #{$lg-width}) {
     @content
   }
 }

@@ -11,12 +11,12 @@ const IntroSection = ({title, text, downloadLink, inputs}) => (
   <section className="Intro" style={{backgroundImage: `url(${background})`}}>
     <Wrapper>
       <div className="Intro-wrapper">
-        <div className="Intro-item">
+        <div className="Intro-item -l">
           <h1 className="Intro-title">{title}</h1>
           <Text className="intro">{text}</Text>
           <Button link={downloadLink} className="light"/>
         </div>
-        <div className="Intro-item">
+        <div className="Intro-item -r">
           <FormWidgetContainer inputs={inputs}/>
         </div>
       </div>

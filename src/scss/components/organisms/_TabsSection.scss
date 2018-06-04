@@ -5,3 +5,9 @@
     display: flex;
   }
 }
+
+@include md {
+  .TabsSection-wrapper {
+    flex-wrap: wrap;
+  }
+}

@@ -28,35 +28,52 @@ class Slider extends React.Component {
   items = this.props.children.length
 
   componentDidMount() {
-    window.addEventListener('resize', this.setState({step: this.slider.clientWidth}))
+    this.handleResize()
+    window.addEventListener('resize', this.handleResize)
   }
 
   componentWillUnmount() {
-    window.removeEventListener('resize', this.setState())
+    window.removeEventListener('resize', this.handleResize)
   }
 
   sliderListStile = () => {
     const space = this.state.space
     return ({
-      marginLeft: -this.margin,
+      // marginLeft: -this.margin /2 ,
       transition: `${this.animationDuration}ms ${this.timingFunction}`,
       transform: `translateX(-${space}px)`
     })
   }
 
   sliderItemStyle = () => {
-    const minWidth = (this.state.step / this.slidesCount - this.margin) + (this.margin / this.slidesCount)
+    // const minWidth = (this.state.step / this.slidesCount - this.margin) + (this.margin / this.slidesCount)
+    const minWidth = (this.state.step / this.slidesCount - this.margin)
     return ({
       minWidth: minWidth,
-      marginLeft: this.margin
+      marginLeft: this.margin / 2,
+      marginRight: this.margin / 2
     })
+  }
+
+  handleResize = () => {
+    this.setState({step: this.slider.clientWidth})
+    let windowWidth = window.outerWidth
+    if (windowWidth <= 576) {
+      this.slidesCount = 1
+    }
+    else if (windowWidth <= 992) {
+      this.slidesCount = 2
+    }
+    else {
+      this.slidesCount = this.props.slidesCount
+    }
   }
 
   handleRightMove = () => {
     this.items -= this.slidesCount
 
     if (this.items > 0) {
-      this.setState(prevState => ({space: prevState.space + prevState.step + this.margin}))
+      this.setState(prevState => ({space: prevState.space + prevState.step}))
     }
     else {
       this.items = this.props.children.length
@@ -67,7 +84,7 @@ class Slider extends React.Component {
   handleLeftMove = () => {
     if (this.state.space > 0) {
       this.items += this.slidesCount
-      this.setState(prevState => ({space: prevState.space - prevState.step - this.margin}))
+      this.setState(prevState => ({space: prevState.space - prevState.step}))
     }
   }
 

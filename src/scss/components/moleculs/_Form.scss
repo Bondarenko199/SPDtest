@@ -1,0 +1,91 @@
+.Form {
+  text-align: center;
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    &-l {
+      max-width: 528px;
+      width: 100%;
+      margin-bottom: 40px;
+      input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 30px;
+        display: block;
+        font: 400 $main-font-size $main-font-family;
+        color: $mid-tone-text;
+        border: none;
+        border-bottom: 1px solid $mid-tone-text;
+        &:active,
+        &:focus {
+          color: $color-text;
+          border-color: $color-border;
+        }
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+    &-r {
+      max-width: 528px;
+      width: 100%;
+      margin-left: auto;
+      margin-bottom: 40px;
+      textarea {
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        display: block;
+        font: 400 $main-font-size $main-font-family;
+        color: $mid-tone-text;
+        resize: none;
+        border: none;
+        border-bottom: 1px solid $mid-tone-text;
+        &:active,
+        &:focus {
+          color: $color-text;
+          border-color: $color-border;
+        }
+      }
+    }
+  }
+  button {
+    padding: 15px 32px;
+    display: inline-block;
+    align-self: flex-start;
+    font: 600 $button-font-size-resp $main-font-family;
+    color: $light-text;
+    background-color: $color-bg;
+    border: none;
+    border-radius: 3px;
+    transition: .2s ease-in-out;
+    &:hover {
+      color: $color-text;
+      background-color: $light-bg;
+    }
+  }
+}
+
+@include lg {
+  .Form {
+    &-wrapper {
+      flex-wrap: wrap;
+      &-r {
+        min-height: 100px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@include xl {
+  button {
+    font-size: $button-font-size;
+  }
+}
+
+@include md {
+  button {
+    align-self: center;
+  }
+}

@@ -6,6 +6,7 @@ import SubLinks from './SubLinks'
 import FormWidget from './FormWidget'
 import Tabs from './Tabs'
 import SectionHeader from './SectionHeader'
+import Form from './Form'
 
 export {
   IconsList,
@@ -15,5 +16,6 @@ export {
   SubLinks,
   FormWidget,
   Tabs,
-  SectionHeader
+  SectionHeader,
+  Form
 }

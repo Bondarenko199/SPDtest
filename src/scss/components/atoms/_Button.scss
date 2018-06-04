@@ -24,3 +24,9 @@
     font-size: $button-font-size;
   }
 }
+
+@include md {
+  .Button {
+    align-self: center;
+  }
+}

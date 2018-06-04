@@ -75,3 +75,13 @@
     }
   }
 }
+
+@include md {
+  .PricingList {
+    flex-direction: column;
+    align-items: center;
+    &-item {
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -13,9 +13,13 @@ class FormWidget extends React.Component {
     })
   }
 
+  handleSubmit = e => (
+    e.preventDefault()
+  )
+
   render() {
     return (
-      <form
+      <form onSubmit={this.handleSubmit}
         className={this.props.className ? `FormWidget -${this.props.className}` : 'FormWidget'}>
         <h3 className="FormWidget-title">Try your <span
           className="FormWidget-title-color">free</span> trial today</h3>

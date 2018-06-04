@@ -25,3 +25,64 @@
   }
 }
 
+.Nav-mobile {
+  display: none;
+  &-wrapper {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $dark-bg;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+  }
+  &-toggle {
+    background-color: $dark-bg;
+    border: 1px solid $light-border;
+    border-radius: 3px;
+    & span {
+      height: 2px;
+      width: 20px;
+      margin: 5px 0;
+      display: block;
+      background-color: $light-bg;
+    }
+  }
+  &-dropdown {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: $dark-bg;
+    transition: .3s ease-in-out;
+  }
+  &-list {
+    width: 50%;
+  }
+}
+
+.NavItem-mobile {
+  width: 100%;
+  padding: 20px;
+  display: block;
+  font: 600 $main-font-size $main-font-family;
+  color: $light-text;
+  border-bottom: 1px solid $light-border;
+  &:first-child {
+    border-top: 1px solid $light-border;
+  }
+}
+
+@include md {
+  .Nav-relative {
+    display: none;
+  }
+  .Nav-mobile {
+    display: block;
+  }
+}

@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  flex-wrap: wrap;
   &.-footer {
     margin-bottom: 12px;
     justify-content: center;
@@ -35,5 +36,11 @@
     &.-footer {
       font-size: $footer-icon-font-size;
     }
+  }
+}
+
+@include md {
+  .IconsList {
+    justify-content: center;
   }
 }

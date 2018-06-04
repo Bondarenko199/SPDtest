@@ -14,6 +14,7 @@ import PricingList from './PricingList'
 import TestimonialsSection from './TestimonialsSection'
 import Slider from './Slider'
 import CustomSection from './CustomSection'
+import ContactSection from './ContactSection'
 
 export {
   Wrapper,
@@ -31,5 +32,6 @@ export {
   PricingList,
   TestimonialsSection,
   Slider,
-  CustomSection
+  CustomSection,
+  ContactSection,
 }

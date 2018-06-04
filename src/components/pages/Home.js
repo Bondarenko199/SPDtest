@@ -10,7 +10,8 @@ import {
   ProcessSectionContainer,
   PricingSectionContainer,
   TestimonialsSectionContainer,
-  CustomSectionContainer
+  CustomSectionContainer,
+  ContactSectionContainer
 } from '../../containers'
 
 const Home = () => (
@@ -26,6 +27,7 @@ const Home = () => (
       <PricingSectionContainer/>
       <TestimonialsSectionContainer/>
       <CustomSectionContainer/>
+      <ContactSectionContainer/>
     </main>
     <Footer/>
   </React.Fragment>

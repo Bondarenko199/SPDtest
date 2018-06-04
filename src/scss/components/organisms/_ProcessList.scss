@@ -17,6 +17,31 @@
     text-align: center;
   }
   &-text {
+    font: 400 $main-font-size-resp $main-font-family;
     text-align: center;
+    color: $light-dark-text;
+  }
+}
+
+@include xl {
+  .ProcessList {
+    &-text {
+      font-size: $main-font-size;
+    }
+  }
+}
+
+@include lg {
+  .ProcessList {
+    margin: 0;
+  }
+}
+
+@include md {
+  .ProcessList {
+    margin: 0;
+    flex-direction: column;
+    &-item {
+    }
   }
 }
